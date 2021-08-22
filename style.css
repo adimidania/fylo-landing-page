@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+:root {
+    --dark-intro-email-sign-up: hsl(217, 28%, 15%);
+    --dark-main-background: hsl(218, 28%, 13%);
+    --dark-footer-background: hsl(216, 53%, 9%);
+    --Dark-testimonials-background: hsl(219, 30%, 18%);
+    --Cyan: hsl(176, 68%, 64%);
+    --Blue: hsl(198, 60%, 50%);
+    --Light-Red: hsl(0, 100%, 63%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--Dark-testimonials-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height:100vh;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+    padding:25px 20px;
+}
+
+.logo {
+    color:white;
+    height:25px;
+    width:auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style-type:none;
+    font-size: 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    opacity: 0.9;
+    margin-right:15px;
+}
+.hero-section {
+    margin-top: 20px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-img {
+    width:85%;
+    margin-bottom: 20px;
+}
+.hero-section h1 {
+    color:white;
+    width:90%;
+    margin-bottom: 15px;
+    line-height: 35px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.hero-section p {
+    color:white;
+    opacity: 0.85;
+    width:80%;
+    line-height: 23px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.get-started {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: capitalize;
+    background-color: var(--Blue);
+    padding:15px 0;
+    width:65%;
+    border-radius: 45px;
+
+}
+.benefits {
+    margin-top:110px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.card {
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:80px;
+}
+.card h2 {
+    margin-top:30px;
+    margin-bottom:5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.card p {
+    font-size: 14px;
+    line-height: 23px;
+    opacity: 0.85;
+}
+.stay-productive {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.productive-img {
+    height:auto;
+    width:85%;
+    margin-bottom:30px;
+}
+.productive-text {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    color:white;
+}
+.productive-text h2 {
+    margin-bottom:10px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.productive-text p {
+    opacity: 0.85;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.how-fylo-works {
+    margin-top: 5px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom:3px;
+    border-bottom: 1px solid var(--Cyan);
+    width:150px;
+}
+.how-fylo-works a {
+    text-decoration: none;
+    color:var(--Cyan);
+    margin-right:5px;
+}
+.reviews {
+    margin-top:125px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.review {
+    width:80%;
+    background-color: var(--dark-intro-email-sign-up);
+    margin-bottom:25px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.review p {
+    opacity: 0.85;
+    font-size: 12px;
+    line-height: 23px;
+}
+.who {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.who img {
+    border-radius: 50%;
+    width:35px;
+    height:auto;
+}
+
