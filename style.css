@@ -16,7 +16,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: var(--Dark-testimonials-background);
+    background-color: var(--dark-main-background);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,6 +31,7 @@ nav {
     width:100%;
     align-items: center;
     padding:25px 20px;
+    padding-top: 35px;
 }
 
 .logo {
@@ -91,10 +92,10 @@ nav ul li a {
     font-weight: 700;
     font-size: 15px;
     text-transform: capitalize;
-    background-color: var(--Blue);
-    padding:15px 0;
+    padding:17px 0;
     width:65%;
     border-radius: 45px;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));;
 
 }
 .benefits {
@@ -186,16 +187,29 @@ nav ul li a {
     margin-bottom:25px;
     color:white;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    padding:30px 20px;
+    border-radius: 7px;
+}
+.first {
+    position: relative;
+    z-index: 999;
+}
+.quote {
+    width:35px;
+    height:auto;
+    position: absolute;
+    top:-25px;
+    z-index: -1;
 }
 .review p {
     opacity: 0.85;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 23px;
+    text-align: left;
 }
 .who {
+    margin-top:15px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -203,7 +217,28 @@ nav ul li a {
 }
 .who img {
     border-radius: 50%;
-    width:35px;
+    width:37px;
     height:auto;
+    margin-right:10px;
+}
+.about {
+    text-align: left;
+}
+.about h3 {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.about small {
+    font-size: 12px;
+    opacity: 0.85;
+    letter-spacing: 1px;
+}
+footer {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:var(--dark-footer-background);
 }
 

@@ -1,9 +1,1 @@
-August 21, 2021 at 2.15 P.M
-
-I'm getting a bit bored from studying, so let's do this challenge, as fast as we challenge
-I guess It's a bit too long so it will take me around 1 or 2 hours!
-It seems to be easy so let's do it!
-
-STRUGGLES :
-1. Well I had to add "min-width: fit-content;" to the body element to save
-the situation.
+August 21, 2021 at 10.15 P.M
