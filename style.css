@@ -370,3 +370,173 @@ footer .logo {
     margin:13px;
 }
 /* TABLET */
+@media screen and (min-width:700px){
+    .card-email {
+        width:75%;
+    }
+    .hero-section {
+        width: 85%;
+    }
+    .header-img {
+        width:75%;
+    }
+    .hero-section h1 {
+        width:75%;
+    }
+    .hero-section p {
+        width:70%;
+    }
+    
+    .get-started {
+        width:55%; 
+    }
+    .benefits {
+        width: 85%;
+    }
+    .card {
+        width:75%;
+    }
+    .stay-productive {
+        width: 85%;
+    }
+    .productive-img {
+        width:75%;
+    }
+    .productive-text {
+        width: 70%;
+    }
+    .reviews {
+        width: 85%;
+    }
+    .review {
+        width:75%;
+    }
+    .card-email {
+        width:75%;
+    }
+    .footer-content {
+        width:75%;
+    }
+}
+/* DESKTOP */
+@media screen and (min-width:1050px) {
+    .card-email {
+        width:50%;
+    }
+    form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width:90%;
+    }
+    form input {
+        margin-top:15px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        width:60%;
+        margin-right:20px;
+    }
+    
+    form button {
+        margin-top:15px;
+        margin-bottom: 10px;
+        width:35%;
+        padding:12px 0px;
+    }
+    .info {
+        display: grid;
+        grid-template-columns: 20% 20% 30% auto;
+        grid-template-rows: 100px auto;
+        grid-column-gap: 40px;
+        grid-template-areas: "logo . . ."
+                            "location contact links social-media ";
+    }
+    .links {
+        grid-area:links;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top:0;
+    }
+    .second-list {
+        margin-top:0;
+    }
+    .location {
+        grid-area: location;
+    }
+    .contact {
+        grid-area: contact;
+    }
+    .social-media {
+        grid-area:social-media;
+    }
+    .logo-footer {
+        grid-area:logo;
+    }
+    .social-media {
+        margin:0;
+    }
+    footer {
+        padding-bottom:30px;
+    }
+    .social-media {
+        align-self:baseline;
+    }
+    .reviews {
+        margin-top:125px;
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+    .review {
+        width:30%;
+        margin: 0 10px;
+    }
+
+    .card-email {
+        top:95px;
+    }
+
+    .hero-section {
+        width: 85%;
+    }
+    .header-img {
+        width:75%;
+    }
+    .hero-section h1 {
+        width:75%;
+    }
+    .hero-section p {
+        width:70%;
+    }
+    
+    .get-started {
+        width:55%; 
+    }
+    .benefits {
+        width: 85%;
+    }
+    .card {
+        width:75%;
+    }
+    .stay-productive {
+        width: 85%;
+    }
+    .productive-img {
+        width:75%;
+    }
+    .productive-text {
+        width: 70%;
+    }
+    .reviews {
+        width: 85%;
+    }
+    .footer-content {
+        width:75%;
+    }
+
+}
