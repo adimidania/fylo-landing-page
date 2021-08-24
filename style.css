@@ -108,6 +108,7 @@ nav ul li a {
 
 .get-started {
     text-decoration: none;
+    cursor: pointer;
     color: white;
     font-weight: 700;
     font-size: 15px;
@@ -117,6 +118,10 @@ nav ul li a {
     border-radius: 45px;
     background-image: linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
 
+}
+.get-started:hover {
+    background-color:hsl(176, 68%, 69%);
+    background-image:none;
 }
 .benefits {
     margin-top:110px;
@@ -179,6 +184,7 @@ nav ul li a {
 }
 
 .how-fylo-works {
+    cursor:pointer;
     margin-top: 5px;
     font-size: 14px;
     display: flex;
@@ -187,12 +193,22 @@ nav ul li a {
     padding-bottom:3px;
     border-bottom: 1px solid var(--Cyan);
     width:150px;
+    color:var(--Cyan);
 }
 .how-fylo-works a {
     text-decoration: none;
-    color:var(--Cyan);
     margin-right:5px;
+    color:var(--Cyan);
 }
+
+.how-fylo-works:hover{
+    color:#fff !important;
+    border-bottom: 1px solid #fff;
+}
+.how-fylo-works a:hover{
+    color:#fff;
+}
+
 .reviews {
     margin-top:125px;
     width: 95%;
@@ -311,7 +327,12 @@ form button {
     border-radius: 30px;
     color:white;
     font-weight: 700;
+    cursor: pointer;
     background-image: linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));;
+}
+form button:hover {
+    background-color:hsl(176, 68%, 69%);
+    background-image:none;
 }
 
 .logo-footer {
@@ -387,6 +408,11 @@ footer .logo {
 .fb, .twt, .insta {
     font-size: 25px ;
     margin:13px;
+    cursor: pointer;
+}
+.fb:hover, .twt:hover, .insta:hover {
+    color:var(--Cyan);
+
 }
 /* TABLET */
 @media screen and (min-width:700px){
