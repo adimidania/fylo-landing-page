@@ -496,7 +496,52 @@ footer .logo {
         width:30%;
         margin: 0 10px;
     }
-
+    .stay-productive {
+        width: 85%;
+        flex-direction: row;
+    }
+    .productive-img {
+        width:40%;
+    }
+    .productive-text {
+        width: 40%;
+        margin-left:35px;
+    }
+    .productive-text h2 {
+        margin-bottom:10px;
+        letter-spacing: 1px;
+        font-size: 25px;
+        line-height: 30px;
+        max-width:300px;    }
+    .productive-text p {
+        margin-bottom:15px;
+    }
+    .benefits {
+        width: 75%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "file secure"
+                            "collaboration storing";
+    }
+    .card {
+        width:auto;
+        text-align: center;
+        padding-left:70px;
+        padding-right:70px;
+    }
+    .file {
+        grid-area:file;
+    }
+    .secure {
+        grid-area:secure;
+    }
+    .collaboration {
+        grid-area:collaboration;
+    }
+    .storing {
+        grid-area:storing;
+    }
     .card-email {
         top:95px;
     }
@@ -505,32 +550,20 @@ footer .logo {
         width: 85%;
     }
     .header-img {
-        width:75%;
+        width:50%;
     }
     .hero-section h1 {
-        width:75%;
+        width:50%;
+        font-size: 25px;
+        line-height: 33px;
+
     }
     .hero-section p {
-        width:70%;
+        width:45%;
     }
     
     .get-started {
-        width:55%; 
-    }
-    .benefits {
-        width: 85%;
-    }
-    .card {
-        width:75%;
-    }
-    .stay-productive {
-        width: 85%;
-    }
-    .productive-img {
-        width:75%;
-    }
-    .productive-text {
-        width: 70%;
+        width:30%; 
     }
     .reviews {
         width: 85%;
