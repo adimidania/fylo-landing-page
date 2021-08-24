@@ -23,6 +23,7 @@ body {
     justify-content: center;
     text-align: center;
     min-height:100vh;
+    position: relative;
 }
 nav {
     display: flex;
@@ -95,7 +96,7 @@ nav ul li a {
     padding:17px 0;
     width:65%;
     border-radius: 45px;
-    background-image: linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
 
 }
 .benefits {
@@ -234,11 +235,138 @@ nav ul li a {
     letter-spacing: 1px;
 }
 footer {
+    padding-top:150px;
     width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:var(--dark-footer-background);
+}
+.card-email {
+    width:90%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color:var(--dark-footer-background);
+    background-color:var(--dark-intro-email-sign-up);
+    padding:20px 30px;
+    color:white;
+    border-radius:8px;
+    position: relative;
+    top:140px;
+}
+.card-email h2 {
+    margin-bottom:15px;
+    letter-spacing: 1px;
+    font-size: 17px;
 }
 
+.card-email p {
+    opacity: 0.85;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+}
+
+form input {
+    margin-top:15px;
+    border:none;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    width:90%;
+    padding:12px 0px;
+    text-align: center;
+    border-radius: 30px;
+    color:#ebebeb;
+}
+
+form button {
+    margin-top:13px;
+    margin-bottom: 10px;
+    border:none;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    width:90%;
+    padding:12px 0px;
+    text-align: center;
+    border-radius: 30px;
+    color:white;
+    font-weight: 700;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));;
+}
+
+.logo-footer {
+    width:125px;
+    height:auto;
+    margin-bottom: 20px;
+}
+.footer-content {
+    width:85%;
+}
+footer .logo {
+    text-align: left;
+    margin:25px 0px;
+}
+.info{
+    color:white;
+    opacity: 0.85;
+}
+.location {
+    text-align: left;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start; /* IMPORTANT */
+    justify-content: flex-start;
+    margin-bottom: 18px;
+}
+.location p {
+    margin-left:15px;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: left;
+}
+.contact ul li {
+    text-align: left;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start; /* IMPORTANT */
+    justify-content: flex-start;
+    margin-bottom: 17px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+.contact ul li img {
+    margin-right: 15px;
+}
+.links {
+    text-align: left;
+    margin-top:75px;
+}
+.links ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.links ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+.second-list {
+    margin-top:50px;
+}
+
+.social-media {
+    margin:35px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+}
+.fb, .twt, .insta {
+    font-size: 25px ;
+    margin:13px;
+}
+/* TABLET */
